@@ -1,57 +1,72 @@
 // CHAPTER 1
-
+ 
+// task2
 // alert("Error! Please enter a valid password.");
+// task3
 // alert("Welcome to JS Land... \n Happy Coding!");
+// task4
 // alert("Welcome to JS Land...");
+// task5
 // alert("Happy Coding!");
 
 // chapter2
 
-//1
-var username;
-//2
-var myName = "Adnan Musil";
-//3
-var message = "Hello World";
-alert(message);
+// //task1
+// var username;
+// //task2
+// var myName = "Adnan Musil";
+// //task3
+// var message = "Hello World";
+// alert(message);
 
-//4
-var name = "Jhone Doe";
-var age = "15 years old";
-var qualification = "Certified Mobile Application Development";
-alert(name);
-alert(age);
-alert(qualification);
+// //task4
+// var name = "Jhone Doe";
+// var age = "15 years old";
+// var qualification = "Certified Mobile Application Development";
+// alert(name);
+// alert(age);
+// alert(qualification);
 
-//5
-var pizza = "PIZZA" + "\n" + "PIZZ" + "\n" + "PIZ" + "\n" + "PI" + "\n" + "P";
-alert(pizza);
+// //task5
+// var pizza = "PIZZA" + "\n" + "PIZZ" + "\n" + "PIZ" + "\n" + "PI" + "\n" + "P";
+// alert(pizza);
 
-//6
-var email = "adnan.museel123@gmail.com";
-alert("hey email address is " + email);
+// //task6
+// var email = "adnan.museel123@gmail.com";
+// alert("hey email address is " + email);
 
-//7
-var book = "A smarter way to learn Javascript";
-alert("I am trying to learn from the book "+book);
+// //task7
+// var book = "A smarter way to learn Javascript";
+// alert("I am trying to learn from the book "+book);
 
-//8
-document.write("Yah! I can write HTML content through Javascript");
+// //task8
+// document.write("Yah! I can write HTML content through Javascript");
 
-//9
-var x = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬";
-alert(x);
-document.write(x);
-
-
+// //task9
+// var x = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬";
+// alert(x);
+// document.write(x);
 
 
+// chapter 3
 
+// task1
+var age = 20;
+alert("I am "+age+" years old");
 
+// task2
+var visit = 14;
+alert("you have visited this site "+visit+" times");
 
+// task3
+var birth = 1999;
+document.write("My birth year is " + birth + "<br>" + " Data type of my declared variable is number"+"<br>");
 
-
-
+//task4
+var visitorName = "John Doe";
+var productTitle = "T-shirt(s)";
+var quantity = 5;
+document.write(visitorName+" ordered "+quantity+" "+productTitle+" on XYZ clothing store");
 
 
 
