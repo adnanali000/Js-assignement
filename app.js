@@ -48,35 +48,47 @@
 // document.write(x);
 
 
-// chapter 3
+// // chapter 3
 
-// task1
-var age = 20;
-alert("I am "+age+" years old");
+// // task1
+// var age = 20;
+// alert("I am "+age+" years old");
 
-// task2
-var visit = 14;
-alert("you have visited this site "+visit+" times");
+// // task2
+// var visit = 14;
+// alert("you have visited this site "+visit+" times");
 
-// task3
-var birth = 1999;
-document.write("My birth year is " + birth + "<br>" + " Data type of my declared variable is number"+"<br>");
+// // task3
+// var birth = 1999;
+// document.write("My birth year is " + birth + "<br>" + " Data type of my declared variable is number"+"<br>");
 
-//task4
-var visitorName = "John Doe";
-var productTitle = "T-shirt(s)";
-var quantity = 5;
-document.write(visitorName+" ordered "+quantity+" "+productTitle+" on XYZ clothing store");
-
-
+// //task4
+// var visitorName = "John Doe";
+// var productTitle = "T-shirt(s)";
+// var quantity = 5;
+// document.write(visitorName+" ordered "+quantity+" "+productTitle+" on XYZ clothing store");
 
 
 
+// // chapter 4
 
+// // task1
+// var firstVar,secondVar,thirdVar;
 
+// // task2
+// //legal var
 
+// // var mail,mail123,mail$,mail_done,mailSent;
 
+// //illegal
+// // var 123hello,hello world,for,{hell world},hell-world;
 
+// // task3
+
+// document.write("Variables name can only contain , numbers,$ and _.For example:$my_1stVariable"+"<br>"+
+//                "Variable must begin with a letter,$ or _.For example: $name,_name or name "+"<br>"+
+//                "Variable names are case sensitive"+"<br>"+
+//                "Variable names should not be JS keyword");
 
 
 
