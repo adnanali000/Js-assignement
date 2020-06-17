@@ -528,3 +528,94 @@
 //     document.write(firstNum + "%" + secondNum + "=" + (firstNum%secondNum));
 
 // }
+
+
+
+// // chapter 12-13
+
+// task1
+
+
+// // task2
+// var number1 = prompt("enter first number");
+// var number2 = prompt("enter second number");
+// if(number1 > number2){
+//     alert("number1 is greater than number2")
+// }
+// else if(number2 > number1)
+// {
+//     alert("number2 is greater than number1")
+// }
+// else if(number1 === number2){
+//     alert("both are equal");
+// }
+
+// // task3
+// var userNumber = Number(prompt("Enter number"));
+// if(userNumber > 0){
+//     alert("Number is positive")
+// }
+// else if(userNumber < 0){
+//     alert("Number is negative")
+// }
+// else if(userNumber == 0){
+//     alert("Number is zero");
+// }
+// else{
+//     alert("enter number");
+// }
+
+// // task4
+
+// var vowel = prompt("Enter vowel");
+// var smallVawel = vowel.toLocaleLowerCase();
+// if(smallVawel === "a" || smallVawel === "e" || smallVawel === "i" || smallVawel === "o" || smallVawel === "u"){
+//     alert("True")
+// }
+// else{
+//     alert("False")
+// }
+
+// // task5
+
+// var pass = prompt("Enter your password");
+// var confirmPass = prompt("Confirm your password");
+
+// if(pass === confirmPass){
+//     alert("Correct! The password you entered matches the original password")
+// }
+// else if(pass !== confirmPass){
+//     alert("Incorrect password");
+// }
+
+// // task6
+
+// var greeting;
+// var hour = 13;
+// if(hour < 18){
+//     greeting = "Good Day"; 
+//     alert(greeting)   
+// }
+// else{
+//     greeting = "Good Evening"
+//     alert(greeting)
+// }
+
+
+// // task7
+// var time = prompt("Enter time in 24 hours clock format like 1900")
+// if(time >= 0000 && time < 1200){
+//     alert("Good morning")
+// }
+// else if(time >= 1200 && time < 1700){
+//     alert("Good afternoon")
+// }
+// else if(time >= 1700 && time < 2100){
+//     alert("good evening")
+// }
+// else if(time >= 2100 && time < 2359){
+//     alert("good night")
+// }
+// else{
+//     alert("enter correct time")
+// }
