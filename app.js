@@ -536,6 +536,7 @@
 // task1
 
 
+
 // // task2
 // var number1 = prompt("enter first number");
 // var number2 = prompt("enter second number");
@@ -619,3 +620,139 @@
 // else{
 //     alert("enter correct time")
 // }
+
+
+// // chapter 14-16
+// // task1
+// var studentName = [];
+
+// //task2
+// var studName = {};
+
+// //task3
+// var fruits = ["mangoes","apple","banana"];
+
+// //task4
+// var numArr = [1,2,3,4,5];
+
+// //task5
+// var boolArr = [true,false];
+
+// //task6
+// var mixArr = [1,true,3,"adnan"];
+
+// //task7
+// var education = ["SSC","HSC","BCS","BS","BCOM","MS","M.Phil","PhD"];
+// document.write("QUALIFICATION"+"<br>");
+// document.write("1)"+education[0]+"<br>");
+// document.write("2)"+education[1]+"<br>");
+// document.write("3)"+education[2]+"<br>");
+// document.write("4)"+education[3]+"<br>");
+// document.write("5)"+education[4]+"<br>");
+// document.write("6)"+education[5]+"<br>");
+// document.write("7)"+education[6]+"<br>");
+// document.write("8)"+education[7]+"<br>");
+
+// //task8
+// var student = ["Michael","john","Tony"];
+// var studentScore = [320,230,480];
+// var total_Marks = 500;
+// var percentageStudent1 = (studentScore[0] * 100) / total_Marks;
+// var percentageStudent2 = (studentScore[1] * 100) / total_Marks;
+// var percentageStudent3 = (studentScore[2] * 100) / total_Marks;
+// document.write("Score of "+student[0]+"is "+studentScore[0]+". Percentage "+percentageStudent1+"%"+"<br>");
+// document.write("Score of "+student[1]+"is "+studentScore[1]+". Percentage "+percentageStudent2+"%"+"<br>");
+// document.write("Score of "+student[2]+"is "+studentScore[2]+". Percentage "+percentageStudent3+"%"+"<br>");
+
+
+// //task9
+// var colourNames = ["green","black","yellow","blue"];
+// document.write(colourNames+"<br>");
+
+// //a
+// var addBegining = prompt("What colour do you want to add in the begining");
+// colourNames.unshift(addBegining);
+// document.write(colourNames+"<br>");
+
+// //b
+// var addend = prompt("What colour do you want to add in the end");
+// colourNames.push(addend);
+// document.write(colourNames+"<br>")
+
+// //c
+// colourNames.unshift("brown","pink");
+// document.write(colourNames+"<br>");
+
+// //d
+// colourNames.shift();
+// document.write(colourNames+"<br>");
+
+// //e
+// colourNames.shift();
+// document.write(colourNames+"<br>");
+
+// //f
+// var addColour = prompt("At which index do you want to add colour");
+// var addColourName = prompt("Colour Name");
+// colourNames.splice(addColour,0,addColourName);
+// document.write(colourNames+"<br>");
+
+// //g
+// var removeColour = prompt("At which index you want to delete colour");
+// var endingPoint = prompt("How many colours do you want to delete");
+// colourNames.splice(removeColour,endingPoint);
+// document.write(colourNames+"<br>");
+
+// // task10
+// var scoreStudent = [320,230,480,120];
+// document.write("Scores of students: "+scoreStudent+"<br>");
+// var ascOrder = scoreStudent.sort();
+// document.write("Ordered scores of students: "+ascOrder+"<br>");
+
+// //task11
+// var cities = ["Karachi","Lahore","Islamabad","Quetta","Peshawar"];
+// document.write("Cities list: "+"<br>"+cities+"<br>");
+
+// var citiesSelected = cities.slice(2,4);
+// document.write("Selected Cities list: "+"<br>"+citiesSelected+"<br>");
+
+// //task12
+// var str = ["This","is","my","cat"];
+// document.write("Array: "+"<br>"+str+"<br>");
+
+// var joinStr = str.join(" ");
+// document.write("String: "+"<br>"+joinStr+"<br>");
+
+
+// //task13
+// var device = [];
+// device.unshift("keyboard","mouse","printer","monitor");
+// document.write("Devices: "+"<br>"+device+"<br>");
+
+// document.write("Out: "+"<br>"+device.shift()+"<br>");
+// document.write("Out: "+"<br>"+device.shift()+"<br>");
+// document.write("Out: "+"<br>"+device.shift()+"<br>");
+// document.write("Out: "+"<br>"+device.shift()+"<br>");
+
+
+// // task14
+// var device = [];
+// device.push("keyboard","mouse","printer","monitor");
+// document.write("Devices: "+"<br>"+device+"<br>");
+
+// document.write("Out: "+"<br>"+device.pop()+"<br>");
+// document.write("Out: "+"<br>"+device.pop()+"<br>");
+// document.write("Out: "+"<br>"+device.pop()+"<br>");
+// document.write("Out: "+"<br>"+device.pop()+"<br>");
+
+
+// // task15
+
+// var phone = ["Apple","Samsung","Motorola","Nokia","Sony","Haier"];
+// document.write(phone[0]+"<br>");
+// document.write(phone[1]+"<br>");
+// document.write(phone[2]+"<br>");
+// document.write(phone[3]+"<br>");
+// document.write(phone[4]+"<br>");
+// document.write(phone[5]+"<br>");
+
