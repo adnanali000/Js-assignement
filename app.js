@@ -756,3 +756,129 @@
 // document.write(phone[4]+"<br>");
 // document.write(phone[5]+"<br>");
 
+
+// // chapter 17-20
+
+// //task1
+// var mulArr = [[1,2],[4,5]];
+
+
+// // task2
+// var multidimensionalArr = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+// document.write(multidimensionalArr[0].join(" ")+"<br>"+multidimensionalArr[1].join(" ")+"<br>"+multidimensionalArr[2].join(" ")+"<br>");
+
+
+// //task3
+
+// for(var i = 1; i <= 10; i++){
+//       document.write(i+"<br>");
+// }
+
+
+// // task4
+
+// var tabNum = prompt("enter a number to show its multiplication table")
+// var tabNumLength = prompt("enter length multiplication table");
+
+// document.write("Multiplication table of "+tabNum+"<br>");
+// document.write("Length "+tabNumLength+"<br>");
+// for(var i = 1; i<=tabNumLength; i++)
+// {
+//     document.write(tabNum+"*"+i+"="+(tabNum * i)+"<br>");
+// }
+
+// // task5
+
+// var fruits = ["apple","banana","mango","orange","strawberry"];
+// for(var i = 0; i < fruits.length; i++){
+//     document.write(fruits[i]+"<br>");
+// }    
+// for(var j = 0; j < fruits.length; j++){
+//     document.write("Element at index "+j+" is "+fruits[j]+"<br>");
+// }
+
+// // task6
+
+// //a
+// document.write("Counting: "+"<br>");
+// for(var i = 1; i <= 15; i++)
+// {
+//     document.write(i+",");
+// }
+
+// //b
+// document.write("<br>"+"Reverse Counting: "+"<br>")
+// for(var j = 10; j > 0; j--){
+//     document.write(j+",");
+// }
+
+// //c
+// document.write("<br>"+"Even"+"<br>");
+// for(var k = 0; k <= 20; k=k+2){
+//     document.write(k+",");
+// }
+
+// //d
+// document.write("<br>"+"Even"+"<br>");
+// for(var x = 1; x <= 20; x=x+2){
+//     document.write(x+",");
+// }
+
+// //e
+// document.write("<br>"+"Series: "+"<br>")
+// for(var a = 2; a <= 20; a+=2){
+//     document.write(a+"k, ");
+// }
+
+
+// // task7
+
+// var bakery = ["cake","apple pie","cookie","chips","patties"];
+// var bakSearch = prompt("Welcome to ABC Bakery.What do you want to order sir/ma'am ?");
+// var newbakSearch = bakSearch.toLocaleLowerCase();
+
+// for(var x = 0; x < bakery.length; x++){
+//     if(bakery[x] === newbakSearch){
+//         alert(newbakSearch+" is available at index "+ x +" in our bakery");
+//         break;
+//     }
+//     else{
+//         alert(newbakSearch + " is not available in our bakery");
+//         break;
+//     }
+// }
+
+// // task8
+
+// var arrLarge = [24,53,78,91,12];
+// var num = 0;
+
+// for(var i = 0; i <= num; i++){
+//     if(arrLarge[i] > num){
+//         var num = arrLarge[i];
+//     }
+
+// }
+// document.write("Array items: "+arrLarge+"<br>");
+// document.write("The largest number: "+num+"<br>");
+
+// // task9
+
+// var arrSmall = [24,53,78,91,12];
+// var num = arrSmall[0];
+
+// for(var i = 0; i < arrSmall.length; i++){
+//     if(arrSmall[i] < num){
+//         num = arrSmall[i];
+//     }
+// }
+// document.write("Array items: "+arrSmall+"<br>");
+// document.write("The smallest number: "+num+"<br>");
+
+
+
+// // task10
+
+// for(var i = 5; i <= 100; i+=5){
+//     document.write(i+", ");
+// }
